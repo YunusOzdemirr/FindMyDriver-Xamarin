@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LojistikProject.Admin.Views.AdminDashBoardDetails"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             BackgroundColor="#1e1e1e"
+              NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             
+             >
+    <Grid>
+        <StackLayout>
+
+            <Frame  BackgroundColor="WhiteSmoke" BorderColor="DarkGray" Padding="5" Margin="5" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                    <StackLayout  Orientation="Horizontal">
+                    <Entry x:Name="EntSearchBar" Margin="5,0,-8,0" Placeholder="Arama" HorizontalOptions="FillAndExpand" TextColor="Black" PlaceholderColor="Black" BackgroundColor="WhiteSmoke"/>
+                    <ImageButton x:Name="search" WidthRequest="50" Padding="5" BackgroundColor="WhiteSmoke"/>
+                    </StackLayout>
+                </Frame>
+           
+        <maps:Map  x:Name="MyMap" MapType="Satellite" IsShowingUser="True"  HasZoomEnabled="True">
+            <!--<maps:Map.Pins>
+            <maps:Pin Label="Santa Cruz"
+                       Address="The city with a boardwalk"
+                       Type="Place">
+                <maps:Pin.Position>
+                    <maps:Position>
+                        <x:Arguments>
+                            <x:Double>36.9628066</x:Double>
+                            <x:Double>-122.0194722</x:Double>
+                        </x:Arguments>
+                    </maps:Position>
+                </maps:Pin.Position>
+            </maps:Pin>
+        </maps:Map.Pins>-->
+       
+    </maps:Map>
+        </StackLayout>
+    </Grid>
+</ContentPage>

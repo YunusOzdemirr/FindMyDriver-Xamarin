@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862408389740",
+    "firebase_url": "https://mirportdatabaseandroid.firebaseio.com",
+    "project_id": "mirportdatabaseandroid",
+    "storage_bucket": "mirportdatabaseandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862408389740:android:1a9ab58cf8e0ba6961d449",
+        "android_client_info": {
+          "package_name": "com.companyname.lojistikproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862408389740-on4rgi81nai3dvr97i8a0isehhliu27h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.lojistikproject",
+            "certificate_hash": "1a8348933fd311d3ae5dfeba04db8084dbc6e305"
+          }
+        },
+        {
+          "client_id": "862408389740-er5njv4tqck83jsbkhcin9f8dsjtjvdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkM10W2AFPj83k9jKNI7yovM9M-Sla9IM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862408389740-er5njv4tqck83jsbkhcin9f8dsjtjvdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

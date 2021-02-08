@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>862408389740-ne0robfj6mk12m8kpf4h05tbahkqedlh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.862408389740-ne0robfj6mk12m8kpf4h05tbahkqedlh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>862408389740-on4rgi81nai3dvr97i8a0isehhliu27h.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCbqbGLIE-cFAs32Cr0TB-pxLyLhV84im4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>862408389740</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>LojistikProject.iOS</string>
+	<key>PROJECT_ID</key>
+	<string>mirportdatabaseandroid</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mirportdatabaseandroid.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:862408389740:ios:a803f9370dfdc84361d449</string>
+	<key>DATABASE_URL</key>
+	<string>https://mirportdatabaseandroid.firebaseio.com</string>
+</dict>
+</plist>

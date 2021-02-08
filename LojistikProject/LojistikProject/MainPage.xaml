@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LojistikProject.MainPage"
+              xmlns:local="clr-namespace:LojistikProject.Views"
+              x:Name="Mainpageee">
+    <CarouselPage.Children>
+    <ContentPage x:Name="GirisPage">
+        <Label Text="Eğer bu yazıyı okuyorsanız geliştirici ile iletişime geçin" TextColor="Black" FontSize="32" VerticalOptions="Center" HorizontalOptions="Center"/>
+    </ContentPage>
+
+        <!--<ContentPage>
+            <Shell>
+                <ShellContent>
+                    <local:AnaSayfa/>
+                </ShellContent>
+            </Shell>
+        </ContentPage>-->
+
+    </CarouselPage.Children>
+
+</CarouselPage>

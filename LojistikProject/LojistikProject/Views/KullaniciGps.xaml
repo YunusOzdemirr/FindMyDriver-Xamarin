@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LojistikProject.Views.KullaniciGps"
+              x:Name="KullaniciGpsBackground"
+             BackgroundColor="#1e1e1e"
+             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             >
+    <Grid  NavigationPage.HasNavigationBar="False">
+        
+        <StackLayout VerticalOptions="Start" Margin="0,20,0,0" HorizontalOptions="Center">
+            <Label x:Name="LabelUserId" IsVisible="False" Text="{Binding UserId}"  TextColor="White"/>
+            
+            <StackLayout  Margin="5"  Orientation="Horizontal"   HorizontalOptions="Center">
+                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                    <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35" Padding="-5" Margin="7"/>
+                        <Label  x:Name="lblname" TextColor="White"
+                            WidthRequest="200" Opacity="0.5" HorizontalOptions="FillAndExpand" Margin="0,0,15,0" VerticalTextAlignment="Center" FontAttributes="Bold" FontSize="16" Text="{Binding UserName}" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            <StackLayout  Margin="5"  Orientation="Horizontal"   HorizontalOptions="Center">
+                <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Padding="0" Margin="0" CornerRadius="50" HorizontalOptions="FillAndExpand">
+                    <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                        <Frame BackgroundColor="AliceBlue" CornerRadius="50" HorizontalOptions="Start" HeightRequest="35" WidthRequest="35" Padding="-5" Margin="7"/>
+                        <Label x:Name="LblSwtchDeger" TextColor="White" VerticalTextAlignment="Center"
+                            WidthRequest="200" Opacity="0.5" HorizontalOptions="FillAndExpand" Margin="0,0,15,0"  />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+            
+            <Button Margin="5" x:Name="Salim" Text="Gps verisi için tıklayın" CornerRadius="15"/>
+            
+            <Label x:Name="lblLongtitude" IsVisible="False" HorizontalOptions="Center" TextColor="Red"/>
+            <Label x:Name="lblAltitude" IsVisible="False"  HorizontalOptions="Center" TextColor="Red"/>
+
+
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>

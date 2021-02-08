@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LojistikProject.Views.DashBoardDetails">
+    <ContentPage.Content>
+        <Grid  Margin="20,30">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Frame CornerRadius="10"  HasShadow="False" BorderColor="LightGray" Padding="10">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width=".3*"/>
+                        <ColumnDefinition Width=".7*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label  Grid.Row="0" Text="Task Id"/>
+                    <Label  Grid.Row="0"  HorizontalOptions="StartAndExpand" Grid.Column="1" x:Name="TaskId"/>
+                    <Label  Grid.Row="1"  Text="Client ID"/>
+                    <Label  Grid.Row="1"  HorizontalOptions="StartAndExpand" Grid.Column="1" x:Name="ClientID"/>
+                    <Label  Grid.Row="2"  Text="Task Title"/>
+                    <Label  Grid.Row="2"  HorizontalOptions="StartAndExpand" Grid.Column="1" x:Name="TaskTitle"/>
+                </Grid>
+            </Frame>
+            <ListView Grid.Row="1"   x:Name="MyList" Footer="" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="7*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackLayout>
+                                    <Frame HasShadow="False" VerticalOptions="CenterAndExpand" CornerRadius="20" BorderColor="LightGray" HeightRequest="40" WidthRequest="40" HorizontalOptions="Center" Padding="0" IsClippedToBounds="True">
+                                        <Image  Source="ToDoIcon.png"  HeightRequest="20" WidthRequest="20" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+                                    </Frame>
+                                </StackLayout>
+                                <StackLayout VerticalOptions="CenterAndExpand" Grid.Column="1" Margin="20" Orientation="Horizontal">
+                                    <Label HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Text="{Binding TaskName}"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

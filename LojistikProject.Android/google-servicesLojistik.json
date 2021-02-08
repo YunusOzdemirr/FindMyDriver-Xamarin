@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1038643259662",
+    "firebase_url": "https://lojistikproject.firebaseio.com",
+    "project_id": "lojistikproject",
+    "storage_bucket": "lojistikproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038643259662:android:2be978e6a04dadc2b08f5f",
+        "android_client_info": {
+          "package_name": "com.companyname.lojistikproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038643259662-hvf0sv9fp0p3svn5q9ucaih43mg2pfp5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtn3Mcue6vCNybuL15MCUfAPSd8lQMPSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038643259662-hvf0sv9fp0p3svn5q9ucaih43mg2pfp5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

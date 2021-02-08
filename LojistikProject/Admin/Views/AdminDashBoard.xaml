@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LojistikProject.Admin.Views.AdminDashBoard"
+              NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="False"
+             >
+
+
+    <Grid>
+        <StackLayout>
+            <Grid  Padding="10" BackgroundColor="#1e1e1e">
+                <ListView x:Name="MyList" Footer="" HorizontalScrollBarVisibility="Always" IsPullToRefreshEnabled="True"  HasUnevenRows="True" SeparatorColor="#16697a" SeparatorVisibility="Default">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout  Orientation="Vertical" Padding="10">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Kullanıcı Numarası" TextColor="White"  Margin="2"/>
+                                            <Label Text="{Binding UserPhone}" TextColor="White" FontAttributes="Bold" Margin="2"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Kullanıcı Adı" TextColor="White"  Margin="2"/>
+                                            <Label x:Name="LblUserName" Text="{Binding UserName}" TextColor="White" FontAttributes="Bold" Margin="2"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                    <StackLayout  HorizontalOptions="EndAndExpand" VerticalOptions="Center">
+                                    </StackLayout>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <StackLayout HorizontalOptions="EndAndExpand" VerticalOptions="End">
+                    <Button x:Name="btn"  WidthRequest="40" HeightRequest="40" Clicked="ImageClicked" />
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </Grid>
+
+
+</ContentPage>
