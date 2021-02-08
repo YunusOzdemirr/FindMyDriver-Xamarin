@@ -1,7 +1,0 @@
-- name: Uncrustify C# Code Formatting
-  # You may pin to the exact commit or the version.
-  # uses: mibmo/actions-uncrustify@701dc6ae8ede65cbcebe9723c6d72722dfbd1cc0
-  uses: mibmo/actions-uncrustify@v1.1
-  with:
-    # Alternate configuration file to use
-    configPath: # optional
