@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6vlSudJoCIaWvzLUFa9JyE5aVtbQJW/kbedVonl26VYCRLOw1uHQKtCTiTkBYidwwVxDXONaqk8lzLn3Okq84A==",
+  "dgSpecHash": "Dw7Lfbfg7fn3yV5rDKzQOG3QTzJufeOhpjW+PlhS1LeEzapddm/uFsm2ZXuEdrKD8cBnDr4JkV42V6hJajB2sw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj",
+  "projectFilePath": "c:\\Users\\Ares\\Documents\\GitHub\\FindMyDriver\\LojistikProject\\LojistikProject\\LojistikProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ares\\.nuget\\packages\\firebasedatabase.net\\4.0.4\\firebasedatabase.net.4.0.4.nupkg.sha512",
     "C:\\Users\\Ares\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",

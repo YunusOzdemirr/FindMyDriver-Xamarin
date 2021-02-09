@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj": {}
+    "c:\\Users\\Ares\\Documents\\GitHub\\FindMyDriver\\LojistikProject\\LojistikProject\\LojistikProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj": {
+    "c:\\Users\\Ares\\Documents\\GitHub\\FindMyDriver\\LojistikProject\\LojistikProject\\LojistikProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj",
+        "projectUniqueName": "c:\\Users\\Ares\\Documents\\GitHub\\FindMyDriver\\LojistikProject\\LojistikProject\\LojistikProject.csproj",
         "projectName": "LojistikProject",
-        "projectPath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj",
+        "projectPath": "c:\\Users\\Ares\\Documents\\GitHub\\FindMyDriver\\LojistikProject\\LojistikProject\\LojistikProject.csproj",
         "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\obj\\",
+        "outputPath": "c:\\Users\\Ares\\Documents\\GitHub\\FindMyDriver\\LojistikProject\\LojistikProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
