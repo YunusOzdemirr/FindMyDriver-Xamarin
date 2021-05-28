@@ -4,8 +4,8 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Ares\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/yunus/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/yunus/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
   </PropertyGroup>
@@ -16,7 +16,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xamarin.build.download\0.10.0\buildTransitive\Xamarin.Build.Download.props" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download\0.10.0\buildTransitive\Xamarin.Build.Download.props')" />
-    <Import Project="$(NuGetPackageRoot)xamarin.forms\4.6.0.1141\buildTransitive\Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms\4.6.0.1141\buildTransitive\Xamarin.Forms.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.build.download/0.10.0/buildTransitive/Xamarin.Build.Download.props" Condition="Exists('$(NuGetPackageRoot)xamarin.build.download/0.10.0/buildTransitive/Xamarin.Build.Download.props')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.forms/4.6.0.1141/buildTransitive/Xamarin.Forms.props" Condition="Exists('$(NuGetPackageRoot)xamarin.forms/4.6.0.1141/buildTransitive/Xamarin.Forms.props')" />
   </ImportGroup>
 </Project>

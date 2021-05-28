@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "60RajTPLtvJEuWLAaBmd6Ps8HK5Qn7vZcvT0IGRcCTi5nkuCWHO25ptmTBwALxWx0f7t9ZQCl/lZnWXV1P1O9A==",
+  "dgSpecHash": "fkc9sN3RX5mxROCng9jujAVyQJleSulruZXk5J6Mv/Db/XRPgG7PuO041CkQLs71qNeB2Yw1KVQUB5tzlD6Mmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject.iOS\\LojistikProject.iOS.csproj",
+  "projectFilePath": "/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.iOS/LojistikProject.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Ares\\.nuget\\packages\\firebasedatabase.net\\4.0.4\\firebasedatabase.net.4.0.4.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\system.reactive\\4.0.0\\system.reactive.4.0.0.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\xamarin.build.download\\0.10.0\\xamarin.build.download.0.10.0.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512",
-    "C:\\Users\\Ares\\.nuget\\packages\\xamarin.forms.maps\\4.6.0.1141\\xamarin.forms.maps.4.6.0.1141.nupkg.sha512"
+    "/Users/yunus/.nuget/packages/firebasedatabase.net/4.0.4/firebasedatabase.net.4.0.4.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/litedb/4.1.4/litedb.4.1.4.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/system.reactive/4.0.0/system.reactive.4.0.0.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/xamarin.build.download/0.10.0/xamarin.build.download.0.10.0.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/xamarin.essentials/1.5.3.2/xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/xamarin.forms/4.6.0.1141/xamarin.forms.4.6.0.1141.nupkg.sha512",
+    "/Users/yunus/.nuget/packages/xamarin.forms.maps/4.6.0.1141/xamarin.forms.maps.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }

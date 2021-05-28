@@ -1715,39 +1715,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ares\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/yunus/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject.iOS\\LojistikProject.iOS.csproj",
+      "projectUniqueName": "/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.iOS/LojistikProject.iOS.csproj",
       "projectName": "LojistikProject.iOS",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject.iOS\\LojistikProject.iOS.csproj",
-      "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject.iOS\\obj\\",
+      "projectPath": "/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.iOS/LojistikProject.iOS.csproj",
+      "packagesPath": "/Users/yunus/.nuget/packages/",
+      "outputPath": "/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ares\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/yunus/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\LojistikProject\\LojistikProject\\LojistikProject\\LojistikProject.csproj"
+            "/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject/LojistikProject.csproj": {
+              "projectPath": "/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject/LojistikProject.csproj"
             }
           }
         }

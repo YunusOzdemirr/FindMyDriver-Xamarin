@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{105A2868-805B-4770-952F-238D1A258D57}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LojistikProject/LojistikProject/Services/ApiServices.cs">
+    <Files>
+      <File FileName="LojistikProject/LojistikProject/ViewModels/LoginViewModel.cs" Line="77" Column="10" />
+      <File FileName="LojistikProject/LojistikProject/Services/ApiServices.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LojistikProject" expanded="True">
+            <Node name="LojistikProject" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="ApiServices.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LojistikProject.Android PreferredExecutionTarget="Android.pixel_2_xl_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
