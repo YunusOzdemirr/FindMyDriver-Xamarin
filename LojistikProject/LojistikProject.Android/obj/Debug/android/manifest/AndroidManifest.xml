@@ -34,13 +34,6 @@
     </provider>
     <receiver android:enabled="true" android:exported="false" android:name="crc643f46942d9dd1fff9.PowerSaveModeBroadcastReceiver" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.companyname.lojistikproject.mono.MonoRuntimeProvider.__mono_init__" />
-    <!--suppress ExportedReceiver-->
-    <receiver android:name="mono.android.Seppuku">
-      <intent-filter>
-        <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.lojistikproject" />
-      </intent-filter>
-    </receiver>
     <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     <!-- Needs to be explicitly declared on P+ -->
   </application>

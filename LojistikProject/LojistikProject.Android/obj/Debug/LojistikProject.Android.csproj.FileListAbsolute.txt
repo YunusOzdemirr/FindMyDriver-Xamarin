@@ -10,7 +10,6 @@
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/MonoAndroid,Version=v9.0.AssemblyAttributes.cs
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/build.props
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/adb.props
-/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/LojistikProject.Android.csprojAssemblyReference.cache
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/_VerifyXamarinAndroidSupportVersions.stamp
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/stamp/_BuildLibraryImportsCache.stamp
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/res.flag
@@ -525,3 +524,4 @@
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/yunus/Documents/GitHub/FindMyDriver/LojistikProject/LojistikProject.Android/obj/Debug/LojistikProject.Android.csproj.AssemblyReference.cache

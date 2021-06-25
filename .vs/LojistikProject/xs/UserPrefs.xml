@@ -8,11 +8,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LojistikProject" expanded="True">
-            <Node name="LojistikProject" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="ApiServices.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="LojistikProject" expanded="True" />
+            <Node name="LojistikProject.Android" selected="True" />
           </Node>
         </State>
       </Pad>
